@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+
+# Data and models (tracked via manifests, not git)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+recordings/
+*.pth
+*.pt
+*.onnx
+*.mlpackage
+*.task
+
+# Experiment outputs
+mlruns/
+wandb/
+runs/
